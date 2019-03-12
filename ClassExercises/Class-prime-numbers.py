@@ -1,12 +1,9 @@
-number = int(input("Enter any number: "))
+import math
 
-if number > 1:
-    for i in range(2, number):
-        if (number % i) == 0:
-            print(number, "not prime")
-            break
-    else:
-        print(number, "is prime")
+number = int(input('Digite um número: '))
+divisor = int
 
+if number%divisor == 0:
+    print('Seu número não é primo')
 else:
-    print(number, "not prime")
+    print('Seu número é primo')
